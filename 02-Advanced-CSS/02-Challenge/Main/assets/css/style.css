@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* brand color palette */
+
 :root {
   --primary: rgba(68, 88, 119, 1);
   --secondary: rgba(146, 204, 206, 1);
@@ -172,7 +172,6 @@ main {
   font-size: 0.9rem;
 }
 
-/* feature first portfolio item */
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
@@ -219,7 +218,7 @@ main {
   color: var(--secondary);
 }
 
-/* portfolio project images */
+
 .run-buddy {
   background-image: url("../images/02-run-buddy.jpg");
 }
@@ -240,7 +239,7 @@ main {
   background-image: url("../images/02-portfolio-4.jpg");
 }
 
-/* end portfolio project images */
+
 
 @media screen and (max-width: 980px) {
   header {
